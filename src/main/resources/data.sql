@@ -1,0 +1,44 @@
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Parker', 'Stark', '9473 Grand Ave, Linden, OH 48392', 'parkstark@hotmail.com', '(274) 854-8493', '2001-04-27');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Skye', 'Best', '288 Martinsville St, Buford, OH 42974', 'bestskye@yahoo.com', '(243) 647-7394', '2000-02-02');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Raelynn', 'Woods', '1186 Landry Path, Georgesville, LA 28594', 'butterflyqueen285@gmail.com', '(286)865-3965', '2005-10-30');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Marshall', 'Page', '95 Molten Blvd, Stealthon, PA 29654', 'm.page@osu.edu', '(297) 547-2296', '2004-07-29');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Dash', 'Hahn', '22849 Country Road 275, Pewter, KY 28119', 'dashpass47@yahoo.com', '(364) 377-2839', '2003-09-03');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Harlem', 'Bender', '3884 Husky Way Pl, Furlton, FL 58294', 'harbender@gmail.com', '(843) 732-0908', '2003-11-18');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Braylon', 'Randall', '478 Peary Hill Dr, Wheaton, GA 43276', 'randgrand28@yahoo.com', '(643) 786-0776', '2007-02-14');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Ali', 'Lucas', '5354 Douglas Blvd, hurley, WI 27564', 'aliluc@gmail.com', '(775) 229-8012', '2006-06-21');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Natalie', 'Weber', '702 Barkline Rd, Cabinville, MA 94352', 'natalie43627@gmail.com', '(443) 637-9333', '2004-01-16');
+INSERT INTO student (first_name, last_name, address, email, phone, birthdate) VALUES ('Astrid', 'Alvia', '93648 Quill Manor Dr, Jerseytown, ND 56374', 'alvia.a@hotmail.com', '(658) 285-9016', '2006-08-17');
+
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Reginald', 'Frazier', 'r.frazier@osu.edu', '(758) 547-9365');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Octavia', 'Hendricks', 'o.hendricks@osu.edu', '(547)769-3829');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Harry', 'Fleming', 'h.fleming@osu.edu', '(374) 657-4839');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Bethany', 'Coffey', 'b.coffey@osu.edu', '(774) 547-2967');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Santiago', 'Marquez', 's.marquez@osu.edu', '(218) 574-6639');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Adele', 'Russell', 'a.russell@osu.edu', '(847) 337-0758');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Daphne', 'Ahmed', 'd.ahmed@osu.edu', '(226) 583-0054');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Darius', 'Tate', 'd.tate@osu.edu', '(526) 770-1625');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('River', 'Hopkins', 'r.hopkins2@osu.edu', '(656) 483-9680');
+INSERT INTO instructor (first_name, last_name, email, phone) VALUES ('Ander', 'Leal', 'a.leal@osu.edu', '(388) 275-8490');
+
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (1, 'Human Anatomy', 'ANAT2300', 4, 'Regional study of the basic structure and terminology associated with the human body. Laboratory includes demonstrations on prosected human cadavers.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (2, 'Exploring Global Oral History', 'DENT5798', 1, 'This elective course prepares dental and dental hygiene students for a global service-learning experience focused on understanding global oral health and cultural competencies.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (3, 'Intermediate Ancient Greek II', 'GREE1103', 3, 'Intermediate Ancient Greek II. Prereq: 1102 or equiv, or permission of instructor.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (4, 'From Buddha to Bollywood: Art and Architecture of Southern Asia', 'HIST2007', 3, 'This course is designed to offer students a comprehensive overview of the diverse visual cultures of South Asia, particularly through the lenses of race, ethnicity, and gender.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (5, 'Molecular Genetics', 'MOLG4606', 4, 'A comprehensive genetics course for majors covering transmission and molecular genetics; DNA replication, repair and mutation; transcription and translation; analysis and manipulation of genes at the molecular level.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (6, 'The Dark History of Treatments for Neurologic Conditions', 'NEUR4207', 3, 'This course will provide students with an overview of medical treatments across time from the peculiar to the macabre.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (7, 'Sustainable Urbanism', 'CRPL2210E', 3, 'Globalization is changing cities, economies, social networks and the environment. Technological innovation, entrepreneurship and policy making guides the future of sustainable cities.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (8, 'Symbolic Logic', 'PHIL2500', 3, 'A formal presentation of the elements of modern deductive logic; decision and proof procedures in sentential logic and functional logic.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (9, 'Critical Issues in Global Public Health', 'PUBH2010', 3, 'Public health concepts examining the philosophy, purpose, history, organization, functions, and results of public health practices domestically and internationally.');
+INSERT INTO course (instructor_id, course_title, course_code, credits, description) VALUES (10, 'Elementary Somali III', 'SOMA1103', 4, 'Continuation of 1102; further work on developing oral proficiency in Somali through basic listening, speaking, and reading skills using a competency-based curriculum.');
+
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (1, 4, '2025-01-05', 'B');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (1, 8, '2025-01-05', 'A');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (3, 10, '2024-08-25', 'A');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (8, 3, '2025-01-05', 'C');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (7, 5, '2025-01-05', 'C');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (7, 8, '2025-01-05', 'A');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (3, 5, '2024-08-25', 'A');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (3, 1, '2024-08-25', 'A');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (5, 9, '2025-01-05', 'B');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (9, 2, '2024-08-25', 'B');
+INSERT INTO enrollment (student_id, course_id, enrollment_date, grade) VALUES (4, 7, '2024-08-25', 'C');
